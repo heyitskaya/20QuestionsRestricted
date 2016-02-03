@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<expr type="binary">
+	<question>"Does it live on land?"</question>
+		<expr type="binary">
+			<question>"Does it have 4 legs?"</question>
+				<expr type="binary">
+					<question>"Is it smaller than a tree bush"</question>
+						<expr type="binary">
+							<question>"Are they fast breeders?"</question>
+								<expr type="atom">
+									<atom>Rabbits</atom>
+								</expr>
+								<expr type="binary">
+									<question>"Is it smaller than an ipad"</question>
+										<expr type="binary">
+											<question>"Is it an amphibian?"</question>
+												<expr type="atom">
+													<atom>Turtle</atom>
+												</expr>
+												<expr type="atom">
+													<atom>Rat</atom>
+												</expr>
+										</expr>
+										<expr type="binary">
+											<question>"Is it considered man's best friend?"</question>
+												<expr type="atom">
+													<atom>Dog</atom>
+												</expr>
+												<expr type="atom">
+													<atom>Cat</atom>
+												</expr>
+										</expr>
+								</expr>
+						</expr>
+						<expr type="binary">
+							<question>"Does it hibernate?"</question>
+								<expr type="atom">
+									<atom>Bear</atom>
+								</expr>
+								<expr type="binary">
+									<question>"Is this a farm animal?"</question>
+										<expr type="atom">
+											<atom>Horse</atom>
+										</expr>
+										<expr type="atom">
+											<atom>Lion</atom>
+										</expr>
+								</expr>
+						</expr>
+				</expr>
+				<expr type="binary">
+					<question>"Does it have any legs"</question>
+						<expr type="binary">
+							<question>"Is it mainly found in Australia"</question> //when it has legs
+								<expr type="atom">
+									<atom>Kangaroo</atom>
+								</expr>
+								<expr type="atom">
+									<atom>Ostrich</atom>
+								</expr>
+						</expr>
+						<expr type="atom">
+							<atom>Snake</atom>
+						</expr>
+				</expr>
+		</expr>
+		<expr type="binary">
+			<question>"Is it smaller than a chair?"</question>
+				<expr type="binary">
+					<question>"Can it sting you?"</question>
+						<expr type="atom">
+							<atom>Jellyfish</atom>
+						</expr>
+						<expr type="atom">
+							<atom>Clownfish</atom>
+						</expr>
+				</expr>
+				<expr type="binary">
+					<question>"Is it intelligent?"</question>
+						<expr type="atom">
+							<atom>Dolphin</atom>
+						</expr>
+						<expr type="binary">
+							<question>"Has this animal been reported to kill people?"</question>
+								<expr type="atom">
+									<atom>Shark</atom>
+								</expr>
+								<expr type="atom">
+									<atom>Whale</atom>
+								</expr>
+						</expr>
+				</expr>
+		</expr>
+</expr>
